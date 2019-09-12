@@ -6,6 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.row {
+  margin: 20px;
+}
+
+.class-item-mine:hover {
+  border-color: blue;
+}
+
+.selected-item-mine {
+  background-color: lightgray;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
